@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "site": "email-checker",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
